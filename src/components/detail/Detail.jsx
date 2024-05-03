@@ -45,8 +45,8 @@ const Detail = ({ clickDetail, handleDetail }) => {
     };
   }, [chatId]);
 
-  const res = chat?.message.filter((fil) => fil.img);
-  console.log(res, "detils");
+  const res = chat?.message?.filter((fil) => fil.img);
+  // console.log(res, "detils");
 
   return (
     <div
